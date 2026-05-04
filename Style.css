@@ -1,0 +1,57 @@
+
+body {
+    text-align: center;
+    background-color: rgb(218, 212, 166);
+    color: rgb(0, 0, 0);
+     
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    
+}
+
+ul, ol {
+
+    display: inline-block;
+    text-align: left;
+    list-style-position: outside;
+    padding-left: 25px;
+    margin: 0 auto;
+
+
+}
+
+
+
+nav{
+    background-color: rgb(58, 59, 57);
+    padding: 15px;
+}
+
+nav a{
+    color: chocolate;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+    
+
+hr{
+    border:none;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+P{
+    font-size: 20PX;
+}

@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(to left, rgb(60, 60, 184), rgb(61, 126, 211));
+    color: #fff;
+}
+
+.navegacao{
+    position: fixed;
+    top: 0;
+    background-color: rgb(39, 39, 73, 0.6);
+    width: 100%;
+    z-index: 100;
+    padding: 1.5rem;
+}
+
+.Link-menu{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.Link-menu::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgb(247, 0, 247), rgb(34, 34, 170));
+    transition: width 0.5s ease;
+}
+
+.Link-menu:hover::after{
+    width: 100%;
+}
+
+.Daniel{
+    width: 320px;
+    height: 320px;
+    box-shadow: 0 0 20px rgba(79, 79, 229, 0.3);
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    object-fit: cover;
+}
+
+.cabeçalho{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Info-inicial{
+    font-size: 3rem;
+    color: rgb(206, 223, 255);
+}
+
+.paragrafo-inicio{
+    font-size: 1.3rem;
+    color: rgb(206, 223, 255) ;
+}
+
+.Secao-sobre{
+    padding: 6rem 2rem;
+}
+
+.Caixa-sobre{
+    padding: 2rem;
+    max-width: 700px;
+    margin: 300px auto;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.05);
+}  
+
+.Info-Sobre{
+    font-size: 3rem;
+    color: rgba(206, 223, 255);
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+.Sobre-paragrafo{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.secao-Projetos{
+    padding: 6rem 2rem;
+}
+
+.Info-Projetos{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.Projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Projetos-Card{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 17px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.Projeto1-imagem{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.titulo-projeto{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.Caixa-text{
+    padding: 1.5rem;
+}
+
+.Projetos-Card:hover{
+    box-shadow: 0 10px 20px rgb(6, 0, 190);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.paragrafo-projeto{
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

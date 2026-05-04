@@ -1,0 +1,42 @@
+
+body {
+    text-align: center;
+    background-color: rgb(218, 212, 166);
+    color: rgb(0, 0, 0);
+    background-image: url(Dnaiel.JPG);
+    background-size: cover;
+    
+   
+    
+}
+
+ul, ol {
+
+    display: inline-block;
+    text-align: left;
+    list-style-position: outside;
+    padding-left: 25px;
+    margin: 0 auto;
+
+
+}
+
+button {
+    
+    padding: 100px 500px;
+    background-color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 50%;
+    
+    
+    
+     
+}
+ 
+button:hover{
+
+    transition: 0,4s;
+    
+    border: 10px solid rgb(58, 59, 57);
+}
+
